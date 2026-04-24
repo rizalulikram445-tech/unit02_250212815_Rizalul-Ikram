@@ -63,16 +63,16 @@ formEkskul.addEventListener('submit', function(event) {
     cardSiswa.classList.add('card-siswa');
     if (ekskul=== "Pramuka"){
         cardSiswa.style.backgroundColor= "#FFF1D3";
-        cardSiswa.style.borderLeft="5px solid #162E93"
+        cardSiswa.style.borderLeft="5px solid #ea4a06"
     } else if (ekskul=== "Palang Merah Remaja (PMR)") {
         cardSiswa.style.backgroundColor= "#FFF1D3";
-        cardSiswa.style.borderLeft="5px solid #162E93"
+        cardSiswa.style.borderLeft="5px solid #f10c0c"
     } else if (ekskul=== "Klub Coding & Robotik") {
         cardSiswa.style.backgroundColor= "#FFF1D3";
-        cardSiswa.style.borderLeft="5px solid #162E93"
+        cardSiswa.style.borderLeft="5px solid #167cd5"
     } else if (ekskul==="Jurnalistik") {
         cardSiswa.style.backgroundColor= "#FFF1D3";
-        cardSiswa.style.borderLeft="5px solid #162E93"
+        cardSiswa.style.borderLeft="5px solid #0fea79"
     }
 
     // Kita isi konten HTML ke dalam elemen cardSiswa menggunakan innerHTML
